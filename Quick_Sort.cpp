@@ -21,7 +21,8 @@ void printArray(int array[], int size) {
 // function to rearrange array (find the partition point)
 int partition(int array[], int low, int high) {
     
-  // select the rightmost element as pivot
+  // select the rightmost element as pivotclear
+
   int pivot = array[high];
   
   // pointer for greater element
@@ -77,4 +78,4 @@ int main() {
   
   cout << "Sorted array in ascending order: \n";
   printArray(data, n);
-}0
+}`
