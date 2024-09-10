@@ -43,4 +43,6 @@ plt.show()
 # Verify that the reconstructed signal matches the original signal
 print("Original Signal:", signal)
 print("Reconstructed Signal:", np.real(reconstructed_signal))
+
+##
     
