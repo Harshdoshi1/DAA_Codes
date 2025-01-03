@@ -40,7 +40,7 @@ void checkPlagiarismmINCode(const string& paragraph1, const string& paragraph2) 
 
 int main() {
     string paragraph1 = "DAA is very interesting subject. It is used in many real life applications.";
-    string paragraph2 = "DAA is very Good Coding Subject. They are used in various applications.";
+    string paragraph2 = "DAA is very interesting subject. They are used in various applications.";
 
     checkPlagiarismmINCode(paragraph1, paragraph2);
 
