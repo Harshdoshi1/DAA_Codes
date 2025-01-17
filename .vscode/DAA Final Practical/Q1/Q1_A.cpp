@@ -7,8 +7,6 @@ using namespace std;
 int main() {
     srand(static_cast<unsigned>(time(0)));
 
-    //
-
     string text;
     for (int i = 0; i < 25; i++) {
         text += "ATGC"[rand() % 4]; // itt will Randomly pick from 'A', 'T', 'G', 'C'
