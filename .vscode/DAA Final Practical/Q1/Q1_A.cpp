@@ -18,8 +18,6 @@ int main() {
     cout << "Text: " << text << endl;
     cout << "Pattern: " << pattern << endl;
 
-    //
-
     for (int i = 0; i <= text.length() - pattern.length(); i++) {
         if (text.substr(i, pattern.length()) == pattern) {
             cout << "Pattern found at position " << i << endl;
